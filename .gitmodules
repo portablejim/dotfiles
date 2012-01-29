@@ -1,0 +1,36 @@
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/gundo.vim"]
+	path = vim/bundle/gundo.vim
+	url = git://github.com/sjl/gundo.vim.git
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/minibufexpl.vim"]
+	path = vim/bundle/minibufexpl.vim
+	url = git://github.com/fholgado/minibufexpl.vim.git
+[submodule "vim/bundle/taglist.vim"]
+	path = vim/bundle/taglist.vim
+	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/vim-latex"]
+	path = vim/bundle/vim-latex
+	url = git://github.com/jcf/vim-latex.git
+[submodule "other/theme_solarized/guake"]
+	path = other/theme_solarized/guake
+	url = https://github.com/coolwanglu/guake-colors-solarized.git
+[submodule "other/theme_solarized/dircolors"]
+	path = other/theme_solarized/dircolors
+	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "other/theme_solarized/gnome-terminal"]
+	path = other/theme_solarized/gnome-terminal
+	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
