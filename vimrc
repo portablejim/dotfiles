@@ -11,6 +11,8 @@ call pathogen#infect()
 " Auto re-load vimrc file when changed
 autocmd! bufwritepost .vimrc source %
 
+set encoding=utf-8
+
 set incsearch
 set ignorecase
 set smartcase
