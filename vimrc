@@ -57,7 +57,8 @@ filetype indent on
 syntax enable
 
 " Solarized colourscheme - github: altercation/vim-colors-solarized
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
+colorscheme desert
 
 let g:tex_flavor='latex'
