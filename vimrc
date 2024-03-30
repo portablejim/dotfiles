@@ -1,13 +1,3 @@
-"My vimrc file
-
-set nocompatible
-
-" Debian turns this on, we want to run pathogen first
-filetype off
-
-"Pathogen
-call pathogen#infect()
-
 " Auto re-load vimrc file when changed
 autocmd! bufwritepost .vimrc source %
 
@@ -25,8 +15,8 @@ set autoindent
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set list
-set listchars=tab:▶▷,trail:·,nbsp:·
+"set list
+"set listchars=tab:▶▷,trail:·,nbsp:·
 
 set title
 set number
@@ -45,20 +35,9 @@ set statusline+=¶%{&fileformat[0:0]}] " Line endings: (m)ac/(p)c/(u)nix
 set statusline+=%m
 set statusline+=\ Dir:\ %{fileDir}
 set statusline+=%=
-set statusline+=\ %{fugitive#statusline()}
+"set statusline+=\ %{fugitive#statusline()}
 set statusline+=\ ※\ %b\|0x%B
-set statusline+=\ ↔%c
-set statusline+=\ ↕%l/%L
+set statusline+=\ ↔\ %c
+set statusline+=\ ↕\ %l/%L
 
 set history=1000
-
-filetype plugin on
-filetype indent on
-syntax enable
-
-" Solarized colourscheme - github: altercation/vim-colors-solarized
-"set background=dark
-"colorscheme solarized
-colorscheme desert
-
-let g:tex_flavor='latex'
