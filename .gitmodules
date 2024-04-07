@@ -34,3 +34,6 @@
 [submodule "other/theme_solarized/gnome-terminal"]
 	path = other/theme_solarized/gnome-terminal
 	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
+[submodule "tmux/.tmux/plugins/tpm"]
+	path = tmux/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
