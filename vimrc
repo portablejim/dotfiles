@@ -36,6 +36,8 @@ set laststatus=2
 
 let fileDir=pathshorten(expand("%:~:."))
 
+set guifont=Inconsolata\ 12
+
 set statusline=%t
 set statusline+=\ %h%r%w
 set statusline+=%<
@@ -62,3 +64,5 @@ syntax enable
 colorscheme desert
 
 let g:tex_flavor='latex'
+let g:rustfmt_autosave = 1
+
