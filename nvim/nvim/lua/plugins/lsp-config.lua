@@ -14,7 +14,7 @@ return {
 				"lwc_ls", -- LWC
 				--"bash_ls", -- Bash
 				"gopls", -- Golang
-				"tsserver", -- JS
+				"ts_ls", -- JS
 				--"markdown_oxide", -- Markdown
 				--"psalm", -- Python
 				--"sourcery", -- PHP
@@ -38,7 +38,7 @@ return {
 			lspconfig.lua_ls.setup({
                capabilities = capabilities
             })
-			lspconfig.tsserver.setup({
+			lspconfig.ts_ls.setup({
                capabilities = capabilities
             })
 			lspconfig.gopls.setup({
